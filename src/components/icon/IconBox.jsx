@@ -1,11 +1,20 @@
 import React from 'react';
+import { MoonIcon } from '@chakra-ui/icons';
 import { Flex } from '@chakra-ui/react';
 
 export default function IconBox(props) {
     const { icon, ...rest } = props;
 
     return (
-        <Flex alignItems={'center'} justifyContent={'center'} borderRadius={'50%'} {...rest}>
+        <Flex
+            w={'56px'}
+            h={'56px'}
+            mr={'18px'}
+            alignItems={'center'}
+            justifyContent={'center'}
+            borderRadius={'50%'}
+            {...rest}
+        >
             {icon}
         </Flex>
     );

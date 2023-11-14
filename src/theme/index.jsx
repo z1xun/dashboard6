@@ -46,8 +46,19 @@ const theme = extendTheme({
     colors: {
         primary: '#4318FF',
         globalBg: '#F4F7FE',
+        secondary: {
+            100: '#F4F7FE',
+            200: '#E6EDFF',
+            300: '#D9E1FF',
+            400: '#CCE6FF',
+            500: '#BFEAFF',
+            600: '#B2EEFF',
+            700: '#A5F3FF',
+            800: '#98F7FF',
+            900: '#8BF9FF',
+        },
         secondary_grey_700: '#707EAE',
-        Secondary_Grey_600: '#A3AED0',
+        secondary_Grey_600: '#A3AED0',
     },
     breakpoints: {
         sm: '480px',
