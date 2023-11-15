@@ -8,6 +8,7 @@ import LineChart from "../components/charts/LineChart";
 import { lineChartDataOverallRevenue, lineChartOptionsOverallRevenue } from "../components/charts/CartData";
 import ReactApexChart from "react-apexcharts";
 import ApexChart from "../components/charts/ColumnChart";
+import MiniCalendar from "../components/calender/MiniCalender";
 
 const boxBg = "secondary.500";
 
@@ -65,10 +66,10 @@ const Home = () => {
                 </Card>
             </SimpleGrid>
             <SimpleGrid columns={[1, null, null, 2]} spacing={"20px"} mt={"20px"}>
-                <Box w="100%" h="300px" bg="red.500"></Box>
+                <Box w="100%" h="300px" bg="white"></Box>
                 <SimpleGrid columns={[1, 2]} spacing={"20px"}>
-                    <Box w="100%" h="300px" bg="blue.100"></Box>
-                    <Box w="100%" h="300px" bg="red.500"></Box>
+                    <Box w="100%" h="300px" bg="white"></Box>
+                    <MiniCalendar h="100%" minW="100%" selectRange={false} />
                 </SimpleGrid>
             </SimpleGrid>
         </Layout>
