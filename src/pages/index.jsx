@@ -6,6 +6,8 @@ import MiniStatistics from '../components/home/MiniStatistics';
 import IconBox from '../components/icon/IconBox';
 import LineChart from '../components/charts/LineChart';
 import { lineChartDataOverallRevenue, lineChartOptionsOverallRevenue } from '../components/charts/CartData';
+import ReactApexChart from 'react-apexcharts';
+import ApexChart from '../components/charts/ColumnChart';
 
 const boxBg = 'secondary.500';
 
@@ -51,12 +53,14 @@ const Home = () => {
                             chartData={lineChartDataOverallRevenue}
                             chartOptions={lineChartOptionsOverallRevenue}
                         />
-                        <Text>View a summary of all your customers over the last month.</Text>
                     </CardBody>
                 </Card>
                 <Card>
+                    <CardHeader>
+                        <Heading size="md">Client Report</Heading>
+                    </CardHeader>
                     <CardBody>
-                        <Text>View a summary of all your customers over the last month.</Text>
+                        <ApexChart />
                     </CardBody>
                 </Card>
             </SimpleGrid>
