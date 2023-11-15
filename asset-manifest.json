@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dashboard6/static/css/main.e6c13ad2.css",
+    "main.js": "/dashboard6/static/js/main.d181b604.js",
+    "static/js/787.545aecf5.chunk.js": "/dashboard6/static/js/787.545aecf5.chunk.js",
+    "static/media/android.svg": "/dashboard6/static/media/android.4cf2d04ecf4c2a3d2e84aa7d03493f53.svg",
+    "index.html": "/dashboard6/index.html",
+    "static/media/apple.svg": "/dashboard6/static/media/apple.e32afc03669f2e1d7e1b97c8b344ff6d.svg",
+    "static/media/windows.svg": "/dashboard6/static/media/windows.ce2e79e89dff91fb6eae286e570d64a0.svg",
+    "main.e6c13ad2.css.map": "/dashboard6/static/css/main.e6c13ad2.css.map",
+    "main.d181b604.js.map": "/dashboard6/static/js/main.d181b604.js.map",
+    "787.545aecf5.chunk.js.map": "/dashboard6/static/js/787.545aecf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d181b604.js"
+  ]
+}
